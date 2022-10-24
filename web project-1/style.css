@@ -97,6 +97,7 @@ a{
     width: 739px;
     height: 645px;
     align-self: flex-end;
+    margin-top: 57px;
 }
 
 .header .btn-section{
@@ -128,6 +129,7 @@ a{
     display: flex;
     margin-top: 40px; 
     gap: 25px;
+    /* margin-bottom: 147px; */
 }
 
 .article{
@@ -419,6 +421,7 @@ a{
     margin-left: 128px;
     font-size: 48px;
     width: 600px;
+    color: #fff;
 }
 
 .energy-text .see-job-vacancies{
@@ -479,23 +482,27 @@ a{
     position: relative;
 }
 
-video .video-box{
+.video .video-img-backgound{
     position: absolute;
-    width: 51px;
-    height: 51px;
-    background-color: #333333;
-    color: #fff;
-    border-radius: 50px;
+    bottom: 165px;
+    left: 40px;
 }
 
 .video .video-img{
     position: absolute;
-    margin-top: 600px;
-    margin-left: 85px;
+    /* margin-top: 600px;
+    margin-left: 85px; */
+    bottom: 182px;
+    left: 60px;
 }
 
 .video .video-image{
     margin: 166px 0px 128px 0px;
+}
+
+.video .video-image::after{
+    content: "Play Video";
+    position: absolute;
 }
 
 .blog-news{
@@ -627,12 +634,6 @@ video .video-box{
     border-radius: 31px;
 }
 
-/* .footer .input p{
-    position: absolute;
-    
-    right: 100px;
-} */
-
 .input .privance{
     display: flex;
     right: 32px;
@@ -664,6 +665,10 @@ video .video-box{
 }
 
          /*Services*/
+
+.Work-Us p{
+    line-height: 30px;
+}
 
 .Work-Us-text .col-cta .primary-button{
     background-color: #F58A07;
@@ -944,6 +949,11 @@ video .video-box{
     font-size: 20px;
 }
 
+.blog-container .blog-img-2 img{
+    margin-top: 128px;
+    border-radius: 20px 20px 20px 20px;
+}
+
 .latest .All-post{
     margin: 128px 0px 68px 0px;
     font-size: 48px;
@@ -1067,6 +1077,7 @@ video .video-box{
 .last-container p{
     color: #5b5b5b;
     font-size: 18px;
+    margin-top: 24px;
 }
 
 .location-1{
@@ -1085,7 +1096,26 @@ video .video-box{
     color: #5b5b5b;
 }
 
-.name input{
+
+.name .e-mail-1 input{
+    width: 570px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    margin-right: 35px;
+    height: 54px;
+    margin-bottom: 24px;
+}
+
+.name .first-name input{
+        width: 570px;
+        background: rgba(210, 218, 237, 0.17);
+        border-radius: 27px;
+        margin-right: 35px;
+        height: 54px;
+        margin-bottom: 24px;
+}
+
+.name .last-name input{
     width: 570px;
     background: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
@@ -1095,6 +1125,12 @@ video .video-box{
 }
 
 .name .message input{
+    width: 570px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    margin-right: 35px;
+    height: 54px;
+    margin-bottom: 24px;
     height: 160px;
 }
 
@@ -1102,4 +1138,11 @@ video .video-box{
     margin-bottom: 160px;
     height: 420px;
     border-radius: 28px;
+}
+
+textarea{
+    height: 213px;
+    width: 1280px;
+    border-radius: 28px;
+    padding: 9px 0px 0px 32px;
 }
