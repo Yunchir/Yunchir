@@ -1,6 +1,6 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 22px;     */
     margin: 0;
 }
 
@@ -14,6 +14,7 @@
     margin: 16px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .primary-button {
@@ -69,7 +70,6 @@ a{
     height: 703px;
     background: #DCEAF5;
     margin-top: 20px;
-    /* display: flex; */
 }
 
 .header-container {
@@ -98,6 +98,7 @@ a{
     height: 645px;
     align-self: flex-end;
     margin-top: 57px;
+
 }
 
 .header .btn-section{
@@ -109,8 +110,10 @@ a{
 }
 
 .header .btn-section .btn-primary{
+    box-sizing: border-box;
     width: 199px;
     background: #F58A07;
+    color: #fff;
     border-radius: 27px;
     text-align: center;
     padding: 18px;
@@ -129,11 +132,10 @@ a{
     display: flex;
     margin-top: 40px; 
     gap: 25px;
-    /* margin-bottom: 147px; */
+    /* padding-bottom: 148px; */
 }
 
 .article{
-    /* display: grid; */
     justify-content: center;
     margin-left: 0px;
 }
@@ -143,6 +145,7 @@ a{
     font-size: 48px;
     margin-top: 96px;
     padding-bottom: 27px;
+    color: #1d3444;
 }
 
 .container-main .main{
@@ -152,23 +155,15 @@ a{
 .container-main .article p{
     width: 735px;
     font-size: 18px;
+    color: #5b5b5b;
 }
-    
-.container .article {
-    left: 0px;
-}
-
-/* .container-main .article p{
-    margin-bottom: 64px;
-} */
-
-/* .container .article p{
-    display: flex;
-    flex-direction: column;
-} */
 
 .main{
     display: flex;
+}
+
+.main .post p{
+    color: #5b5b5b;
 }
 
 .main .post img{
@@ -183,15 +178,16 @@ a{
 }
 
 .main .post .learnmore{
+    display: block;
     color: #F58A07;
-    margin-top: 24px;
+    margin-top: 32px;
     margin-bottom: 96px;
 }
 
 .main .post .learnmore::after{
     content: "➙";
     font-size: 24px;
-    margin: 10px;
+    margin-top: 32px;
 }
 
 .feaures-container{
@@ -208,12 +204,14 @@ a{
     margin-top: 96px;
     margin-bottom: 64px;
     font-size: 36px;
+    color: #0d1317;
 }
 
 .main-container p{
     margin-top: 102px;
     margin-bottom: 88px;
     font-size: 18px;
+    color: #5b5b5b;
 }
 
 .Icons{
@@ -231,6 +229,7 @@ a{
 
 .Icons .icon-1 h3{
     margin: 32px 0px 16px 0px;
+    color: #0D1317;
 }
 
 
@@ -257,11 +256,6 @@ a{
 .About-container .about-text .compare{
     display: flex;
 }
-/* 
-.compare{
-    margin-top: 48px;
-    height: 372px;
-} */
 
 .compare h2{
     color: #F58A07;
@@ -471,6 +465,7 @@ a{
 
 .CEO h3{
     font-size: 24px;
+    color: #063255;
 }
 
 .CEO a{
@@ -490,10 +485,8 @@ a{
 
 .video .video-img{
     position: absolute;
-    /* margin-top: 600px;
-    margin-left: 85px; */
-    bottom: 182px;
     left: 60px;
+    bottom: 182px;
 }
 
 .video .video-image{
@@ -505,8 +498,14 @@ a{
     position: absolute;
 }
 
+/* Blog */
+
+.blog .blog-img h1{
+    font-size: 64px;
+    line-height: 72px;
+}
+
 .blog-news{
-    /* display: flex; */
     width: 100%;
     height: 819px;
     background: #DCEAF5;
@@ -538,9 +537,9 @@ a{
 }
 
 .blog-item-1 .learnmore{
-    margin-top: 24px;
-    margin-bottom: 32px;
-    margin-left: 32px;
+    display: block;
+    /* margin-top: 24px; */
+    margin: 32px;
     color: #F58A07;
 }
 
@@ -617,7 +616,8 @@ a{
     height: 54px;
     border-radius: 31px;
     margin: 24px 0px 16px 0px;
-    padding: 10px 0px 0px 32px;
+    padding: 0px 0px 0px 32px;
+    box-sizing: border-box;
 }
 
 .footer .input a{
@@ -992,7 +992,6 @@ a{
 .salary a{
     font-size: 18px;
     color: #5B5B5B;
-    /* width: 500px; */
     margin-right: 284px;
 }
 
@@ -1022,35 +1021,32 @@ a{
     padding: 64px 94px 69px 92px;
     line-height: 28px;
 }
-
 .input h1{
     font-size: 48px;
     color: #0d1317;
     margin-bottom: 61px;
 }
 
-.input-section input{
+.input-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.input-600{
     color: #D2DAED;
     border-radius: 27px;
-    width: 600px;
+    width: 628px;
     height: 54px;
-    margin-bottom: 24px;
     background: rgba(210, 218, 237, 0.17);
+    border: none;
+    box-sizing: border-box;
+    padding: 17px 32px;
+    font-size: 16px;
 }
 
-.input-section .name input{
-    padding: 9px 0px 0px 32px;
-}
-
-.input-section .e-mail input{
-    padding: 9px 0px 0px 32px;
-}
-
-.input-section .quetion input{
-    width: 1280px;
-    height: 215px;
-    border-radius: 27px;
-    padding: 9px 0px 0px 32px;
+.quetion{
+    width: 100%;
 }
 
 .Testing-Engineer .col-cta button{
@@ -1065,6 +1061,7 @@ a{
 .last{
     display: flex;
     margin-top: 120px;
+    gap: 55px;
 }
 
 .last-container h1{
@@ -1096,53 +1093,52 @@ a{
     color: #5b5b5b;
 }
 
-
-.name .e-mail-1 input{
-    width: 570px;
-    background: rgba(210, 218, 237, 0.17);
-    border-radius: 27px;
-    margin-right: 35px;
-    height: 54px;
-    margin-bottom: 24px;
+.name{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    
 }
 
-.name .first-name input{
-        width: 570px;
-        background: rgba(210, 218, 237, 0.17);
-        border-radius: 27px;
-        margin-right: 35px;
-        height: 54px;
-        margin-bottom: 24px;
-}
-
-.name .last-name input{
-    width: 570px;
-    background: rgba(210, 218, 237, 0.17);
+.contact-input{
+    width: 605px;
+    border: none;
     border-radius: 27px;
-    margin-right: 35px;
-    height: 54px;
-    margin-bottom: 24px;
-}
-
-.name .message input{
-    width: 570px;
+    box-sizing: border-box;
+    padding: 18px 32px;
+    font-size: 16px;
     background: rgba(210, 218, 237, 0.17);
-    border-radius: 27px;
-    margin-right: 35px;
-    height: 54px;
-    margin-bottom: 24px;
-    height: 160px;
+
+
 }
 
 .last img{
     margin-bottom: 160px;
     height: 420px;
     border-radius: 28px;
+    font-size: 16px;
 }
 
 textarea{
-    height: 213px;
-    width: 1280px;
+    width: 605px;
+    border: none;
+    border-radius: 27px;
+    box-sizing: border-box;
+    padding: 18px 32px;
+    font-size: 16px;
+    background: rgba(210, 218, 237, 0.17);
+    resize: none;
+}
+
+.orange-button{
+    background-color: #F58A07;
+    color: #fff;
+    border: none;
     border-radius: 28px;
-    padding: 9px 0px 0px 32px;
+    padding: 18px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
 }
