@@ -21,3 +21,17 @@
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/latte, Cappuccino"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="latte, Cappuccino" /></a><a href="https://ko-fi.com/Cappuccino"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Cappuccino" /></a></p><br><br>
+
+ <div align="center">
+<a href="https://www.facebook.com/https://www.facebook.com/profile.php?id=100010246849525" target="_blank">
+<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
+</a>
+<a href="https://instagram.com/https://www.instagram.com/yunchir/" target="_blank">
+<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+</a>
+<a href="https://github.com/https://github.com/Yunchir" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>  
+</div> 
+
+<br>
